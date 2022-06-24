@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Tourney:wght@900&display=swap');
+body{
+  background-color:rgb(25, 214, 214);
+  margin:0px;
+  padding:0px;
+}
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.container h1{
+    font-size: 30px;
+    color:white;
+}
+button{
+  border-radius: 5px;
+  border: none;
+  /* background-image: linear-gradient(rgba(157, 228, 25, 0.795),rgb(32, 226, 145)); */
+  color: black;
+  background-color: rgb(240, 232, 121);
+  padding: 12px;
+}
+button:hover{
+  transition: 200ms;
+  transform:scale(1.1);
+  color:white;
+  font-weight:bold;
+  background-color:rgb(167, 15, 238);
+}
+button:focus{
+  outline: none;
+}
+header{
+  color: rgb(18, 223, 238);
+  background-attachment: fixed;
+  background-color: rgba(104, 104, 104, 0.747);
+}
+.loader{
+  margin: 0 auto;
+}
+.avatar{
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+#main{
+  padding: 15px 50px;
+  margin: 0 auto;
+  display: none;
+}
+#main img{
+  animation-delay: 5s;
+}
+.profile {
+  max-width: 300px;
+  margin: 15px auto;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  border-color: rgba(248, 67, 12, 0.87);
+  border-style:solid;
+  border-width: 4px;
+  border-radius: 20px;
+  background: linear-gradient(-45deg , #f0a88c, #f58319);
+}
+.profile:hover{
+  transition:500ms;
+  width:220px;
+  height:300px;
+  margin:40px;
+  box-shadow: 20px 20px 50px rgba(245, 78, 98, 0.6);
+}
+.name{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bolder;
+  /* font-variant: small-caps; */
+  color: rgb(45, 126, 7);
+  font-size:25px;
+  font-weight: bold;
+}
+.email {
+  background-color: #ee1b1b70;
+  border-radius: 40px;
+  /* font-family: cursive ; */
+  font-size: 18px;
+  padding:5px;
+  /* overflow-wrap: break-word; */
+}
